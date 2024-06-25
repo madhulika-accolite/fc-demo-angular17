@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "fc-demo-angular17:build:production"
+              "buildTarget": "fc-demo-angular17:build:production"
             },
             "development": {
-              "browserTarget": "fc-demo-angular17:build:development"
+              "buildTarget": "fc-demo-angular17:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "fc-demo-angular17:build"
+            "buildTarget": "fc-demo-angular17:build"
           }
         },
         "test": {
